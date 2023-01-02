@@ -1,4 +1,4 @@
-class CreateSpreeBanners < ActiveRecord::Migration[6.1]
+class CreateSpreeBanners < ActiveRecord::Migration[6.0]
   def change
     create_table :spree_banners do |t|
       t.string :name
